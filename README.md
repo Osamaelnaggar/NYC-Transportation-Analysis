@@ -1,30 +1,43 @@
-# Metropolitan City Traffic Analysis - Capstone Project
+# 🚦 NYC Transportation Analysis – Capstone Project
 
-This project is the final capstone for the German University in Cairo's Data Engineering & AI Diploma. It provides a comprehensive end-to-end data pipeline for analyzing urban traffic patterns using real New York City traffic datasets.
+This project is the final capstone for the German University in Cairo's Data Engineering & AI Diploma. It provides a comprehensive, end-to-end data pipeline and analytics platform for analyzing multi-modal urban transportation in New York City, using real open-source datasets.
 
-## 🚦 Project Overview
+The project covers:
+- Taxi, Bus, and Subway data sources
+- ETL pipeline using Apache Airflow
+- PostgreSQL as a data warehouse
+- Containerized environment using Docker
+- Machine Learning model for fare prediction
+- Dashboards created with Apache Superset
 
-We analyze traffic trends in a large metropolitan city using public NYC Taxi datasets (Bus, Subway, Taxi). The pipeline performs:
+---
 
-- Ingestion of large-scale raw data
-- Preprocessing & cleaning
-- Data warehousing
-- Exploratory data analysis (EDA)
-- Machine Learning for ride duration prediction
-- Dashboarding using Apache Superset
+## 📊 Project Highlights
 
-## 🏗️ Architecture
+- 🔄 Fully automated pipeline: ingest, clean, transform, and load public datasets  
+- 🧠 ML-powered predictions on trip duration/fare using FFNN  
+- 🧰 Dockerized infrastructure for reproducibility  
+- 📈 Dashboards showing trends in urban mobility across time and space  
 
-This project leverages a modern data engineering stack:
+---
 
-- **Apache Airflow** – DAG orchestration
-- **PostgreSQL** – Data warehouse
-- **Docker** – Containerized deployment
-- **Pandas, Scikit-learn** – Data processing & ML
-- **Apache Superset** – Visualization & BI
-- **Jupyter Notebooks** – EDA & experimentation
+## 🏗️ Architecture & Tools
 
-## 📂 Project Structure
+This project uses a modern data stack:
+
+- **Apache Airflow** – Orchestration of ETL workflows  
+- **PostgreSQL** – Structured data warehouse  
+- **Docker** – Environment management & deployment  
+- **Apache Superset** – Dashboard and BI layer  
+- **Python** – Data cleaning, processing, and ML  
+- **PySpark** – Big data processing for e-commerce modeling  
+- **Jupyter Notebooks** – EDA and ML model training  
+
+---
+
+## 📁 Project Structure
+
+
 
 ```
 ├── Infra/                  # Docker setup and infra structure
@@ -62,11 +75,20 @@ Notebooks code provide key insights to be used on superset dashboard:
 
 ## 👥 Authors
 
+<<<<<<< HEAD
 - **Abdullah Kamal** - Senior Data Steward - Schneider Electric
 - **Ahmed Abdullah** - 	
 - **Adham Abdelhameed ElSharkawy** – Cloud Solution Architect - Microsoft
 - **Ajeeb ElAmeen** - 
 - **Osama ElNaggar** - Data Management Lead - Dana Petroleum
+=======
+- **Adham Abdelhameed ElSharkawy** – Cloud Solution Architect - Microsoft
+- **Osama ElNaggar** - Data Management Lead - Dana Petroleum
+- **Abdullah Kamal** - Senior Data Steward - Schneider Electric
+- **Ahmed Abdullah** - 	Senior Data Analyst - Seoudi Corporate
+- **Ajeeb ElAmeen** - Senior data Analyst
+
+>>>>>>> 081a298a9e8f29b916eedbc2686da66679ff2906
 
 ## 📜 License
 
@@ -81,3 +103,7 @@ MIT License
 ---
 
 > This project aims to serve as a reusable and extendable framework for urban mobility and traffic analysis. Contributions welcome!
+<<<<<<< HEAD
+=======
+
+>>>>>>> 081a298a9e8f29b916eedbc2686da66679ff2906
