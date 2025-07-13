@@ -1,6 +1,6 @@
 # NYC-Transportation-Analysis  - Capstone Project
-End-to-end data pipeline for analyzing NYC traffic (Bus, Subway, Taxi) using Airflow, PostgreSQL, Docker, and ML with Superset dashboards
-This project is the final capstone for the German University in Cairo's Data Engineering & AI Diploma. It provides a comprehensive end-to-end data pipeline for analyzing urban traffic patterns using real New York City traffic datasets.
+Capstone project from the GUC Data Engineering & AI Diploma. Builds a full-stack data pipeline and analytics platform to explore New York City transportation systems—covering Taxi, Subway, and Bus datasets. Implements ETL using Airflow, storage in PostgreSQL, containerized deployment via Docker, and ML-powered fare predictions with FFNN. Interactive dashboards are delivered using Apache Superset.
+
 
 ## 🚦 Project Overview
 
